@@ -1,0 +1,70 @@
+﻿<Window x:Class="GameCenter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Game Center" Height="750" Width="900"
+        Loaded="Window_Loaded">
+
+    <Window.Background>
+        <ImageBrush ImageSource="C:\Users\user\source\repos\GameCenter\ImagesGame\BackGroundProject.jpg" />
+    </Window.Background>
+
+    <Grid x:Name="MainGrid">
+        <TextBlock x:Name="TitleText" Text="Game Center" FontSize="36" HorizontalAlignment="Center" Margin="0,20,0,0" Foreground="White">
+            <TextBlock.RenderTransform>
+                <ScaleTransform x:Name="TitleScale" ScaleX="1" ScaleY="1" />
+            </TextBlock.RenderTransform>
+        </TextBlock>
+
+        <!-- Grid for organizing buttons. -->
+        <Grid Margin="0,100,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Row 1 -->
+            <Button x:Name="FlappyBirdButton" Grid.Row="0" Grid.Column="0" Click="FlappyBird_Click" Margin="10" Width="150" Height="150" Background="Transparent" BorderBrush="Transparent" ToolTip="Flappy Bird Game" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave">
+                <Image Source="C:\Users\user\source\repos\GameCenter\ImagesGame\\FlappyBirdPhoto.jpg" Stretch="Uniform" />
+            </Button>
+
+            <Button x:Name="NewTicTacToeButton" Grid.Row="0" Grid.Column="1" Click="NewTicTacToe_Click" Margin="10" Width="150" Height="150" Background="Transparent" BorderBrush="Transparent" ToolTip="New Tic Tac Toe Game" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave">
+                <Image Source="C:\Users\user\source\repos\GameCenter\ImagesGame\TicTacToePhoto.jpg" Stretch="Uniform" />
+            </Button>
+
+            <Button x:Name="PacmanButton" Grid.Row="0" Grid.Column="2" Click="Pacman_Click" Margin="10" Width="150" Height="150" Background="Transparent" BorderBrush="Transparent" ToolTip="Pac-Man Game" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave">
+                <Image Source="C:\Users\user\source\repos\GameCenter\ImagesGame\PackmanPhoto.jpg" Stretch="Uniform" />
+            </Button>
+
+            <Button x:Name="SpaceShooterButton" Grid.Row="0" Grid.Column="3" Click="SpaceShooter_Click" Margin="10" Width="150" Height="150" Background="Transparent" BorderBrush="Transparent" ToolTip="Space Shooter Game" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave">
+                <Image Source="C:\Users\user\source\repos\GameCenter\ImagesGame\SpaceShooterPhoto.jpg" Stretch="Uniform" />
+            </Button>
+
+            <!-- Row 2 (Centering Buttons) -->
+            <Grid Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button x:Name="BlackJackButton" Grid.Column="1" Click="BlackJack_Click" Margin="30,30,10,20" Width="150" Height="150" Background="Transparent" BorderBrush="Transparent" ToolTip="Blackjack Game" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave">
+                    <Image Source="C:\Users\user\source\repos\GameCenter\ImagesGame\BlackJackLogo.jpg" Stretch="Uniform" />
+                </Button>
+                <Button x:Name="CountriesButton" Grid.Column="3" Click="Countries_Click" Margin="30,30,10,20" Width="150" Height="150" Background="Transparent" BorderBrush="Transparent" ToolTip="Countries Project" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave">
+                    <Image Source="C:\Users\user\source\repos\GameCenter\ImagesGame\\CountriesPhoto.jpg" Stretch="Uniform" />
+                </Button>
+                <Button x:Name="CriptoCoinButton" Grid.Column="4" Click="CriptoCoin_Click" Margin="30,30,10,20" Width="150" Height="150" Background="Transparent" BorderBrush="Transparent" ToolTip="Crypto Coin Project" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave">
+                    <Image Source="C:\Users\user\source\repos\GameCenter\ImagesGame\CriptoPhoto.jpg" Stretch="Uniform" />
+                </Button>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
