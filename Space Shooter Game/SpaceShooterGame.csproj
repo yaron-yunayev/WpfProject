@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Space_Shooter_Game</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ImagesSpaceShooterGame\1.png" />
+    <None Remove="ImagesSpaceShooterGame\2.png" />
+    <None Remove="ImagesSpaceShooterGame\3.png" />
+    <None Remove="ImagesSpaceShooterGame\4.png" />
+    <None Remove="ImagesSpaceShooterGame\5.png" />
+    <None Remove="ImagesSpaceShooterGame\player.png" />
+    <None Remove="ImagesSpaceShooterGame\purple.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ImagesSpaceShooterGame\1.png" />
+    <Resource Include="ImagesSpaceShooterGame\2.png" />
+    <Resource Include="ImagesSpaceShooterGame\3.png" />
+    <Resource Include="ImagesSpaceShooterGame\4.png" />
+    <Resource Include="ImagesSpaceShooterGame\5.png" />
+    <Resource Include="ImagesSpaceShooterGame\player.png" />
+    <Resource Include="ImagesSpaceShooterGame\purple.png" />
+  </ItemGroup>
+
+</Project>

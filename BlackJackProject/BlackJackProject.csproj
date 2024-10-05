@@ -1,0 +1,131 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="BlackJackImages\AceBlack.jpg" />
+    <None Remove="BlackJackImages\AceDiamond.jpg" />
+    <None Remove="BlackJackImages\AceRed.jpg" />
+    <None Remove="BlackJackImages\AceSpad.jpg" />
+    <None Remove="BlackJackImages\BlackJackTable.jpg" />
+    <None Remove="BlackJackImages\Dealer.jpg" />
+    <None Remove="BlackJackImages\EightBlack.jpg" />
+    <None Remove="BlackJackImages\EightDiamond.jpg" />
+    <None Remove="BlackJackImages\EightRed.jpg" />
+    <None Remove="BlackJackImages\EightSpad.jpg" />
+    <None Remove="BlackJackImages\FiveBlack.jpg" />
+    <None Remove="BlackJackImages\FiveDiamond.jpg" />
+    <None Remove="BlackJackImages\FiveRed.jpg" />
+    <None Remove="BlackJackImages\FiveSpad.jpg" />
+    <None Remove="BlackJackImages\FourBlack.jpg" />
+    <None Remove="BlackJackImages\FourDiamond.jpg" />
+    <None Remove="BlackJackImages\FourRed.jpg" />
+    <None Remove="BlackJackImages\FourSpad.jpg" />
+    <None Remove="BlackJackImages\JackBlack.jpg" />
+    <None Remove="BlackJackImages\JackDiamond.jpg" />
+    <None Remove="BlackJackImages\JackRed.jpg" />
+    <None Remove="BlackJackImages\JackSpad.jpg" />
+    <None Remove="BlackJackImages\KingBlack.jpg" />
+    <None Remove="BlackJackImages\KingDiamond.jpg" />
+    <None Remove="BlackJackImages\KingRed.jpg" />
+    <None Remove="BlackJackImages\KingSpad.jpg" />
+    <None Remove="BlackJackImages\NewCard.jpg" />
+    <None Remove="BlackJackImages\NineBlack.jpg" />
+    <None Remove="BlackJackImages\NineDiamond.jpg" />
+    <None Remove="BlackJackImages\NineRed.jpg" />
+    <None Remove="BlackJackImages\NineSpad.jpg" />
+    <None Remove="BlackJackImages\Player.jpg" />
+    <None Remove="BlackJackImages\QueenBlack.jpg" />
+    <None Remove="BlackJackImages\QueenDiamond.jpg" />
+    <None Remove="BlackJackImages\QueenRed.jpg" />
+    <None Remove="BlackJackImages\QueenSpad.jpg" />
+    <None Remove="BlackJackImages\SevenBlack.jpg" />
+    <None Remove="BlackJackImages\SevenDiamond.jpg" />
+    <None Remove="BlackJackImages\SevenRed.jpg" />
+    <None Remove="BlackJackImages\SevenSpad.jpg" />
+    <None Remove="BlackJackImages\SixBlack.jpg" />
+    <None Remove="BlackJackImages\SixDiamond.jpg" />
+    <None Remove="BlackJackImages\SixRed.jpg" />
+    <None Remove="BlackJackImages\SixSpad.jpg" />
+    <None Remove="Sounds\card_shuffle_win88-85065.mp3" />
+    <None Remove="BlackJackImages\TenBlack.jpg" />
+    <None Remove="BlackJackImages\TenDiamond.jpg" />
+    <None Remove="BlackJackImages\TenRed.jpg" />
+    <None Remove="BlackJackImages\TenSpad.jpg" />
+    <None Remove="BlackJackImages\ThreeBlack.jpg" />
+    <None Remove="BlackJackImages\ThreeDiamond.jpg" />
+    <None Remove="BlackJackImages\ThreeRed.jpg" />
+    <None Remove="BlackJackImages\ThreeSpad.jpg" />
+    <None Remove="BlackJackImages\TwoBlack.jpg" />
+    <None Remove="BlackJackImages\TwoDiamond.jpg" />
+    <None Remove="BlackJackImages\TwoRed.jpg" />
+    <None Remove="BlackJackImages\TwoSpad.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="BlackJackImages\AceBlack.jpg" />
+    <Resource Include="BlackJackImages\AceDiamond.jpg" />
+    <Resource Include="BlackJackImages\AceRed.jpg" />
+    <Resource Include="BlackJackImages\AceSpad.jpg" />
+    <Resource Include="BlackJackImages\BlackJackTable.jpg" />
+    <Resource Include="BlackJackImages\Dealer.jpg" />
+    <Resource Include="BlackJackImages\EightBlack.jpg" />
+    <Resource Include="BlackJackImages\EightDiamond.jpg" />
+    <Resource Include="BlackJackImages\EightRed.jpg" />
+    <Resource Include="BlackJackImages\EightSpad.jpg" />
+    <Resource Include="BlackJackImages\FiveBlack.jpg" />
+    <Resource Include="BlackJackImages\FiveDiamond.jpg" />
+    <Resource Include="BlackJackImages\FiveRed.jpg" />
+    <Resource Include="BlackJackImages\FiveSpad.jpg" />
+    <Resource Include="BlackJackImages\FourBlack.jpg" />
+    <Resource Include="BlackJackImages\FourDiamond.jpg" />
+    <Resource Include="BlackJackImages\FourRed.jpg" />
+    <Resource Include="BlackJackImages\FourSpad.jpg" />
+    <Resource Include="BlackJackImages\JackBlack.jpg" />
+    <Resource Include="BlackJackImages\JackDiamond.jpg" />
+    <Resource Include="BlackJackImages\JackRed.jpg" />
+    <Resource Include="BlackJackImages\JackSpad.jpg" />
+    <Resource Include="BlackJackImages\KingBlack.jpg" />
+    <Resource Include="BlackJackImages\KingDiamond.jpg" />
+    <Resource Include="BlackJackImages\KingRed.jpg" />
+    <Resource Include="BlackJackImages\KingSpad.jpg" />
+    <Resource Include="BlackJackImages\NewCard.jpg" />
+    <Resource Include="BlackJackImages\NineBlack.jpg" />
+    <Resource Include="BlackJackImages\NineDiamond.jpg" />
+    <Resource Include="BlackJackImages\NineRed.jpg" />
+    <Resource Include="BlackJackImages\NineSpad.jpg" />
+    <Resource Include="BlackJackImages\Player.jpg" />
+    <Resource Include="BlackJackImages\QueenBlack.jpg" />
+    <Resource Include="BlackJackImages\QueenDiamond.jpg" />
+    <Resource Include="BlackJackImages\QueenRed.jpg" />
+    <Resource Include="BlackJackImages\QueenSpad.jpg" />
+    <Resource Include="BlackJackImages\SevenBlack.jpg" />
+    <Resource Include="BlackJackImages\SevenDiamond.jpg" />
+    <Resource Include="BlackJackImages\SevenRed.jpg" />
+    <Resource Include="BlackJackImages\SevenSpad.jpg" />
+    <Resource Include="BlackJackImages\SixBlack.jpg" />
+    <Resource Include="BlackJackImages\SixDiamond.jpg" />
+    <Resource Include="BlackJackImages\SixRed.jpg" />
+    <Resource Include="BlackJackImages\SixSpad.jpg" />
+    <Resource Include="Sounds\card_shuffle_win88-85065.mp3" />
+    <Resource Include="BlackJackImages\TenBlack.jpg" />
+    <Resource Include="BlackJackImages\TenDiamond.jpg" />
+    <Resource Include="BlackJackImages\TenRed.jpg" />
+    <Resource Include="BlackJackImages\TenSpad.jpg" />
+    <Resource Include="BlackJackImages\ThreeBlack.jpg" />
+    <Resource Include="BlackJackImages\ThreeDiamond.jpg" />
+    <Resource Include="BlackJackImages\ThreeRed.jpg" />
+    <Resource Include="BlackJackImages\ThreeSpad.jpg" />
+    <Resource Include="BlackJackImages\TwoBlack.jpg" />
+    <Resource Include="BlackJackImages\TwoDiamond.jpg" />
+    <Resource Include="BlackJackImages\TwoRed.jpg" />
+    <Resource Include="BlackJackImages\TwoSpad.jpg" />
+  </ItemGroup>
+
+</Project>
